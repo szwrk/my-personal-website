@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.slate.min.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/quotes.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Arek Wilamowski Site - Portfolio</title>  
+</head>
+<body class="container">
+    <main>
+    <!-- Logo -->
+        <nav>
+            <ul>
+                <hgroup>
+                    <h1>wilamowski.net</h1>
+                    <p class="pico-color-amber-500"><i>Data Sculpting, Software Engineering</i></p>
+                </hgroup>
+            </ul>
+          </nav>
+        <!-- Menu -->
+        <nav>
+            <ul>
+            </ul>
+            <ul>
+                <li><a href="https://wilamowski.net/">Home</a></li>
+                <li><a href="https://portfolio.wilamowski.net/">Portfolio</a></li>
+                <li><a href="https://books.wilamowski.net/">Books</a></li>
+                <li><a href="https://blog.wilamowski.net/">Blog</a></li>
+                <li>
+                    <details class="dropdown">
+                        <summary>
+                            Find me!
+                        </summary>
+                        <ul >
+                            <li><a href="https://www.linkedin.com/in/wilamowski/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                        style="width: 24px; height: 24px;">
+                                        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="currentColor"
+                                            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://github.com/szwrk"><i data-feather="github"></i> </a></li>
+                            <li><a href="mailto:arek@wilamowski.net"><i data-feather="mail"></i> </a></li>
+
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </nav>
+        <!--  -->
+       
+        <hgroup>
+            <h2>Portfolio</h2>
+        </hgroup>
+        <!-- TOC -->
+        <hgroup>
+            <h4><i data-feather="book-open"></i> Table Of Content</h4>
+            <p> Click the project label below to navigate to a specific project, or simply scroll down</p>
+        </hgroup>
+        <div class="grid">
+            <article>
+                <p class="pico-color-blue-400"
+                    data-tooltip="Software dev projects, Java stack included">
+                    <i data-feather="coffee"></i> 
+                    Software Development
+                </p>
+                <ul>
+                    <li><a href="#medapp">Dr.Echo</a>
+
+                    </li>
+                    <li><a href="#empty">...</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p class="pico-color-green-400" data-tooltip="Data, Analytics, DWH, ETL">
+                    <i data-feather="database"></i>
+                    Data Engineering
+                </p>
+                <ul>
+                    <li><a href="#hcdwh">Healthcare DWH & ETL Design</a></li>
+                    <li><a href="#empty">...</a></li>
+                </ul>
+            </article>
+            <article>
+                <p class="pico-color-pumpkin-400" data-tooltip="Explore diverse projects from various fields">
+                    <i data-feather="terminal"></i> Additional Skills
+                </p>
+                <ul>
+                    <li><a href="#mywebsite">Current Website</a> </li>
+                    <li><a href="#empty">...</a></li>
+                </ul>
+            </article>
+        </div>
+        <!-- END TOC -->
+        <hgroup>
+            <h4><i data-feather="briefcase"></i> All projects</h4>
+            <p>Explore my projects</p>
+        </hgroup>
+        <!-- Card Project MedApp -->
+        <article id="medapp">
+            <!-- Card header -->
+            <div>  
+            <p class="pico-color-blue-400">
+            <i data-feather="coffee"></i>
+             Software Development
+            </p>
+                <hgroup>
+                    <h3>Dr.Echo
+                        <strong data-tooltip="Complex project">
+                            <i class="pico-color-amber-500" data-feather="award"> </i> </strong>
+                            <strong data-tooltip="Pet project">
+                                <i class="pico-color-amber-500" data-feather="award"> </i> </strong>
+                    </h3>                
+                    Electronic Health Record application for medicine
+                </hgroup>
+            </div>
+
+            <blockquote>This is a classic JavaFX application with a modern approach for UI/UX.</blockquote>
+            <!-- Card details -->
+            <details>
+                <summary class="outline secondary animate__animated animate__shakeX"><strong class="pico-color-amber-500">Read more...</strong>
+                </summary>
+                <strong>System Architecture</strong>
+                <ul>
+                    <li>Client Application - Modern MVVM architecture</li>
+                    <li>Data Model - Configurable and loosely coupled model layer with repository pattern
+                        <ul>
+                            <li>Standalone Model with In-Memory Demo Repository</li>
+                            <li>Remote Database Integration [in progress]</li>
+                        </ul>
+                    </li>
+                    <li>Report Generation Server - Utilizing JasperReports</li>
+                </ul>
+                
+                <strong>Self-Hosted Tools</strong>
+                <ul>
+                    <li>Homepage</li>
+                    <li>Issue Tracking (Redmine)</li>
+                    <li>Knowledge Base (Wiki.js)</li>
+                </ul>
+                
+                <strong>User Experience Features</strong>
+                <ul>
+                    <li>Internationalization (bundles for UK and PL)</li>
+                    <li>PDF Generation</li>
+                    <li>User-Centric UI/UX (Following GitHub Primer Pattern)</li>
+                    <li>Customizable UI Themes</li>
+                </ul>
+                <div class="grid">                             
+                    </button>
+                    <a href="https://portfolio.wilamowski.net/medapp" class="animate__animated animate__pulse" role="button"target="_blank">  <i data-feather="globe"></i>Visit Project Site</a>
+                </div>
+                <hr>
+            </details>
+            <!-- Stack tags -->
+           
+            <div class="grid">
+                <div>
+                    <kbd>#MVVM</kbd>
+                    <kbd>#OOP</kbd>
+                    <kbd>#Java</kbd>
+                    <kbd>#JavaFx</kbd>
+                    <kbd>#JasperSoft</kbd>
+                    <kbd>#PackageByFeature</kbd>
+                    <kbd>#Docker</kbd>
+                </div>
+            </div>           
+        </article>
+
+        <hr>
+<!--  -->
+
+<article id="hcdwh">
+    <!-- Card header -->
+    <div>
+        <!-- Card Section name -->
+            <p class="pico-color-green-400">
+            <i data-feather="database"></i> Data Engineering
+            </p>
+    <!-- Card Section header -->
+            <hgroup>
+            <h3>Healthcare DWH & ETL Design
+                <strong data-tooltip="Complex DB project">
+                    <i class="pico-color-amber-500" data-feather="award"></i> </strong>
+            </h3>
+           My Engineer's Thesis 2019 [PL]           
+        </hgroup>
+    </div>
+     <!-- End Card header -->
+    <blockquote>Design and implementation of a data warehouse on the example of a health care institution.
+        Original title: "Projekt i implementacja hurtownia danych na przykładzie instytucji służby zdrowia"
+    </blockquote>
+    <!-- Card details -->
+    <details>
+        <summary class="outline secondary  animate__animated animate__shakeX"><strong class="pico-color-amber-500">Read more...</strong>
+        </summary>
+        <strong>PDF file download<br>
+             (PIN is required, it's located in the CV education section )</strong>
+        <p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSectv_M4Mnyp7IQj7hd2elXJLnEaCzSzTzGLay5iWM37YYEeg/viewform?embedded=true" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>
+        </p>      
+        <hr>
+    </details>
+    <!-- Stack tags -->  
+    <div class="grid">
+        
+        <div>        
+            <kbd>#OracleDataModeler</kbd>
+            <kbd>#DWH</kbd>
+            <kbd>#ETL</kbd>
+            <kbd>#SQLAnalyticalFunctions</kbd>
+            <kbd>#PL/SQL</kbd>
+            <kbd>#OLTP</kbd>
+            <kbd>#OLAP</kbd>
+            <kbd>#APEX</kbd>
+            <kbd>#OracleSQLDeveloper</kbd>        
+            <kbd>#OracleDB12</kbd>        
+            <kbd>#OracleLinux</kbd>
+            <kbd>#DBMS_SCHEDULER</kbd>
+            <kbd>#DBLINK</kbd>
+            <kbd>#CTAS</kbd>
+        </div>
+    </div>           
+</article>
+<hr>
+
+ <!-- Card Project Website -->
+<article id="mywebsite">
+    <!-- Card header -->
+    <div>
+        <p class="pico-color-pumpkin-400">
+            <i data-feather="terminal"></i>
+             Additional Skills
+            </p>
+        <hgroup>
+            <h3>Current Website - wilamowski.net
+            </h3>
+            Personal hub with static site generetor for blogging
+        </hgroup>
+    </div>
+    <blockquote>Enhanced classic website stack designed for more efficient page building.
+    </blockquote>
+    <!-- Card details -->
+    <!-- Stack tags -->  
+    <div class="grid">
+        <div>        
+            <kbd>#vps</kbd>
+            <kbd>#centos</kbd>
+            <kbd>#apache</kbd>
+            <kbd>#DNS</kbd>
+            <kbd>#subdomains</kbd>
+            <kbd>#pico-css</kbd>
+            <kbd>#jekyll</kbd>    
+            <kbd>#GIT</kbd>        
+        </div>
+    </div>           
+</article>
+<hr>
+        <!-- Card Project empty -->
+        <article id="empty">
+            <!-- Card header -->
+            <div>
+                <hgroup>
+                    <h3>Loading...</h3>
+                    <p>This project is currently under development.</p>
+                </hgroup>
+            </div>
+
+            <!-- Stack tags -->
+            <hr>
+            <div class="grid">
+                <div>
+                    <kbd>Loading...</kbd>
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- footer -->
+    <hr>
+    <footer id="footer">
+        <div id="blockquote">         
+        </div>
+        <article class="grid">
+            <nav>                
+                <li><small> Connect with me on social media! </small> <i data-feather="mouse-pointer"></i></li>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/wilamowski/">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                style="width: 24px; height: 24px;">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="currentColor"
+                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="https://github.com/szwrk"><i data-feather="github"></i> </a></li>
+                    <li><a href="mailto:arek@wilamowski.net"><i data-feather="mail"></i> </a></li>
+
+                </ul>
+                <li><a class="secondary"> <small>&copy; 2024 A.W.</small></a></li>
+            </nav>
+        </article>
+    </footer>
+    <!--  -->
+</body>
+<script>
+    feather.replace();
+</script>
+
+</html>
