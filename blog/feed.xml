@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>wilamowski.net</title>
+    <description></description>
+    <link>http://wilamowski.net/</link>
+    <atom:link href="http://wilamowski.net//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Why Pick Markdown?</title>
+        <description>Better Than OneNote</description>
+        <pubDate>Mon, 11 Dec 2023 00:00:00 +0100</pubDate>
+        <link>http://wilamowski.net//posts/why-pick-markdown/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/why-pick-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>Optimizing SQL Developer for Productivity</title>
+        <description>Configuration Tips and Tricks</description>
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/sql-developer-configuration/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/sql-developer-configuration/</guid>
+      </item>
+    
+      <item>
+        <title>UML Relationships with PlantUml</title>
+        <description>Explore basic examples</description>
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/plantuml-relationships/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/plantuml-relationships/</guid>
+      </item>
+    
+      <item>
+        <title>Useful applications &amp; plugins</title>
+        <description></description>
+        <pubDate>Thu, 26 Oct 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/my-applications/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/my-applications/</guid>
+      </item>
+    
+      <item>
+        <title>Java Exception handling</title>
+        <description>Best practices</description>
+        <pubDate>Tue, 26 Sep 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/error-handlings-best-practices/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/error-handlings-best-practices/</guid>
+      </item>
+    
+      <item>
+        <title>Jekyll - static site generator</title>
+        <description>Cheatsheet</description>
+        <pubDate>Mon, 11 Sep 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/jekyll-static-site-generator/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/jekyll-static-site-generator/</guid>
+      </item>
+    
+      <item>
+        <title>Warsaw IT Days 2023/04/01</title>
+        <description>IT community conference in Poland, Warsaw</description>
+        <pubDate>Sun, 09 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/warsaw-it-days/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/warsaw-it-days/</guid>
+      </item>
+    
+      <item>
+        <title>Docker Cheat Sheet</title>
+        <description>Running and maintance your first Docker container (Centos, Postgres)</description>
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/docker-1/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/docker-1/</guid>
+      </item>
+    
+      <item>
+        <title>Git FTP</title>
+        <description>How to deploy to your FTP server using git-ftp?</description>
+        <pubDate>Fri, 17 Mar 2023 00:00:00 +0100</pubDate>
+        <link>http://wilamowski.net//posts/git-ftp/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/git-ftp/</guid>
+      </item>
+    
+  </channel>
+</rss>
