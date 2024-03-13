@@ -15,6 +15,14 @@
       </item>
     
       <item>
+        <title>Event: Java User Group Thorn Meetup #68.</title>
+        <description>JUG. That one about 'Clean Code' and 'Dates, times and zones'</description>
+        <pubDate>Wed, 31 Jan 2024 00:00:00 +0100</pubDate>
+        <link>http://wilamowski.net//posts/java-user-group-68/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/java-user-group-68/</guid>
+      </item>
+    
+      <item>
         <title>Open Source Dig of the Week 1: Overview of Markdown notebooks</title>
         <description>Why Pick Markdown? Better Than OneNote!</description>
         <pubDate>Mon, 11 Dec 2023 00:00:00 +0100</pubDate>
@@ -76,14 +84,6 @@
         <pubDate>Sun, 02 Apr 2023 00:00:00 +0200</pubDate>
         <link>http://wilamowski.net//posts/docker-1/</link>
         <guid isPermaLink="true">http://wilamowski.net//posts/docker-1/</guid>
-      </item>
-    
-      <item>
-        <title>Git FTP</title>
-        <description>How to deploy to your FTP server using git-ftp?</description>
-        <pubDate>Fri, 17 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://wilamowski.net//posts/git-ftp/</link>
-        <guid isPermaLink="true">http://wilamowski.net//posts/git-ftp/</guid>
       </item>
     
   </channel>
