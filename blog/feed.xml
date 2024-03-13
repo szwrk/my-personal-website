@@ -7,11 +7,19 @@
     <atom:link href="http://wilamowski.net//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Why Pick Markdown?</title>
-        <description>Better Than OneNote</description>
+        <title>Open Source Dig of the Week 2: about static website</title>
+        <description>Explore documentation tools like Orchid, Wiki.js, and Publii in this week's Dig.</description>
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0100</pubDate>
+        <link>http://wilamowski.net//posts/dig-of-the-week-240312/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/dig-of-the-week-240312/</guid>
+      </item>
+    
+      <item>
+        <title>Open Source Dig of the Week 1: Overview of Markdown notebooks</title>
+        <description>Why Pick Markdown? Better Than OneNote!</description>
         <pubDate>Mon, 11 Dec 2023 00:00:00 +0100</pubDate>
-        <link>http://wilamowski.net//posts/why-pick-markdown/</link>
-        <guid isPermaLink="true">http://wilamowski.net//posts/why-pick-markdown/</guid>
+        <link>http://wilamowski.net//posts/dig-of-the-week-231211/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/dig-of-the-week-231211/</guid>
       </item>
     
       <item>
