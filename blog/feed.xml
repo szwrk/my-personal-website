@@ -7,6 +7,22 @@
     <atom:link href="http://wilamowski.net//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Java User Group Thorn Meetup #71.</title>
+        <description>That one about GraalVM and Black Box tests</description>
+        <pubDate>Thu, 25 Apr 2024 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/java-user-group-71/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/java-user-group-71/</guid>
+      </item>
+    
+      <item>
+        <title>Warsaw IT Days 2024</title>
+        <description>IT community conference in Poland, Warsaw</description>
+        <pubDate>Sun, 07 Apr 2024 00:00:00 +0200</pubDate>
+        <link>http://wilamowski.net//posts/warsaw-it-days-2024/</link>
+        <guid isPermaLink="true">http://wilamowski.net//posts/warsaw-it-days-2024/</guid>
+      </item>
+    
+      <item>
         <title>Open Source Dig of the Week 2: about static website</title>
         <description>Explore documentation tools like Orchid, Wiki.js, and Publii in this week's Dig.</description>
         <pubDate>Tue, 12 Mar 2024 00:00:00 +0100</pubDate>
@@ -68,22 +84,6 @@
         <pubDate>Mon, 11 Sep 2023 00:00:00 +0200</pubDate>
         <link>http://wilamowski.net//posts/jekyll-static-site-generator/</link>
         <guid isPermaLink="true">http://wilamowski.net//posts/jekyll-static-site-generator/</guid>
-      </item>
-    
-      <item>
-        <title>Warsaw IT Days 2023/04/01</title>
-        <description>IT community conference in Poland, Warsaw</description>
-        <pubDate>Sun, 09 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://wilamowski.net//posts/warsaw-it-days/</link>
-        <guid isPermaLink="true">http://wilamowski.net//posts/warsaw-it-days/</guid>
-      </item>
-    
-      <item>
-        <title>Docker Cheat Sheet</title>
-        <description>Running and maintance your first Docker container (Centos, Postgres)</description>
-        <pubDate>Sun, 02 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://wilamowski.net//posts/docker-1/</link>
-        <guid isPermaLink="true">http://wilamowski.net//posts/docker-1/</guid>
       </item>
     
   </channel>
