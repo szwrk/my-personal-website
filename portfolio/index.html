@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Arek Wilamowski Site - Portfolio</title>
+
 </head>
 
 <body class="container">
@@ -55,56 +56,120 @@
                 </li>
             </ul>
         </nav>
-        <!--  -->
-
+        <!-- Title -->
         <hgroup>
             <h2>Portfolio</h2>
+            <p> Noncommercial Projects</p>
         </hgroup>
-        <!-- TOC -->
-        <hgroup>
-            <h4><i data-feather="book-open"></i> Table Of Content</h4>
-            <p> Click the project label below to navigate to a specific project, or simply scroll down</p>
-        </hgroup>
-        <div class="grid">
-            <article>
-                <p class="pico-color-blue-400" data-tooltip="Software dev projects, Java stack included">
-                    <i data-feather="coffee"></i>
-                    Software Development
-                </p>
-                <ul>
-                    <li><a href="#medapp">Dr.Echo</a>
-
-                    </li>
-                    <li><a href="#empty">...</a></li>
-                </ul>
-            </article>
-
-            <article>
-                <p class="pico-color-green-400" data-tooltip="Data, Analytics, DWH, ETL">
-                    <i data-feather="database"></i>
-                    Data Engineering
-                </p>
-                <ul>
-                    <li><a href="#hchosp">Analyzing 21M Hospital Records</a></li>
-                    <li><a href="#hcdwh">Thesis Healthcare DWH&ETL Design</a></li>
-                    <li><a href="#empty">...</a></li>
-                </ul>
-            </article>
-
-            <article>
-                <p class="pico-color-pumpkin-400" data-tooltip="Explore diverse projects from various fields">
-                    <i data-feather="terminal"></i> Additional Skills
-                </p>
-                <ul>
-                    <li><a href="#mywebsite">Website - wilamowski.net </a> </li>
-                    <li><a href="#ddr">Public Information Portal </a> </li>
-                    <li><a href="#empty">...</a></li>
-                </ul>
-            </article>
+       <!-- TOC -->
+<!-- TOC -->
+<hgroup>
+    <h4><i data-feather="book-open"></i> Table Of Content</h4>
+    <p>Tip: Click the project label below to navigate to a specific project, or simply scroll down</p>
+</hgroup>
+<h6>Projects Grouped by Category</h5>
+<div class="grid">
+   
+    <article>
+   
+        <!-- TOC Name: Software Development -->
+        <p class="pico-color-blue-400" data-tooltip="Software dev projects, Java stack included">
+            <i data-feather="coffee"></i>
+            Software Development
+        </p>
+        <div class="project-item">
+            <hgroup style="margin-bottom: 0.2em;">
+                <h5><a href="#medapp" class="animate-hover">Dr.Echo</a></h5>
+                <p>
+                    <i>Cardiology EHR Desktop Application</i><br>   
+                </p>   
+            </hgroup>
+            <p style="font-size: 0.85em; line-height: 1.1; opacity: 0.8;">
+                <small><strong>Key:</strong> ★ Healthcare IT ★ Clean Code ★ Clean Architecture</small><br>
+                <small style="margin-top: 0.5em; display: inline-block;"><strong>Stack:</strong> • Java 21 • JavaFX • MVVM • UI/UX</small>
+            </p>
         </div>
-        <!-- END TOC -->
+        <div class="project-item">
+            <a href="#empty">...</a>
+        </div>
+    </article>
+
+    <article>
+        <!-- TOC Name: Data Engineering -->
+        <p class="pico-color-green-400" data-tooltip="Data, Analytics, DWH, ETL">
+            <i data-feather="database"></i>
+            Data Engineering
+        </p>
+        <div class="project-item">
+            <hgroup style="margin-bottom: 0.2em;">
+                <h5><a href="#hchosp" class="animate-hover">Analyzing 21M Hospital Records</a></h5>
+                <p>
+                    <i>Complex Public Data Processing</i><br>   
+                </p>   
+            </hgroup>
+            <p style="font-size: 0.85em; line-height: 1.1; opacity: 0.8;">
+                <small><strong>Key:</strong> ★ Healthcare IT ★ Exploration ★ Analytics ★ Visualization</small><br>
+                <small style="margin-top: 0.5em; display: inline-block;"><strong>Stack:</strong> • Shell & SQL Scripting • Apache Superset • SQL Loader</small>
+            </p>
+        </div>
+        <div class="project-item">
+            <hgroup style="margin-bottom: 0.2em;">
+                <h5><a href="#hcdwh" class="animate-hover">Hospital DWH & ETL</a></h5>
+                <p>
+                    <i>My Engineer's Thesis DWH & ETL</i><br>   
+                </p>   
+            </hgroup>
+            <p style="font-size: 0.85em; line-height: 1.1; opacity: 0.8;">
+                <small><strong>Key:</strong> ★ ETL ★ DWH ★ OLAP</small><br>
+                <small style="margin-top: 0.5em; display: inline-block;"><strong>Stack:</strong> • PL/SQL • SQL Analytic Functions • Bulk Processing • Oracle APEX</small>
+            </p>
+        </div>
+        <div class="project-item">
+            <a href="#empty">...</a>
+        </div>
+    </article>
+
+    <article>
+        <!-- TOC Name: Additional Skills -->
+        <p class="pico-color-pumpkin-400" data-tooltip="Explore diverse projects from various fields">
+            <i data-feather="terminal"></i> Additional Skills
+        </p>
+        <div class="project-item">
+            <hgroup style="margin-bottom: 0.2em;">
+                <h5><a href="#mywebsite" class="animate-hover">wilamowski.net</a></h5>
+                <p>
+                    <i>My Personal Webpage, Portfolio & Blog</i><br>   
+                </p>   
+            </hgroup>
+            <p style="font-size: 0.85em; line-height: 1.1; opacity: 0.8;">
+                <small><strong>Key:</strong> ★ Subdomains ★ VPS ★ DNS</small><br>
+                <small style="margin-top: 0.5em; display: inline-block;"><strong>Stack:</strong> • Centos • Apache HTTP • GitHook • Webstack • SSG Jekyll • PicoCss • Animate.js</small>
+            </p>
+        </div>
+        <div class="project-item">
+            <hgroup style="margin-bottom: 0.2em;">
+                <h5><a href="#ddr" class="animate-hover">Public Information Portal</a></h5>
+                <p>
+                    <i>Cycling Route Problem Reporting Portal with Map & Microblog</i><br>   
+                </p>   
+            </hgroup>
+            <p style="font-size: 0.85em; line-height: 1.1; opacity: 0.8;">
+                <small><strong>Key:</strong> ★ VPS Self-Hosted ★ Interactive Map ★ Custom Blog / News Feed ★ Static Site - Fast and SEO-Friendly ★ Easy Deployment with GitHooks</small><br>
+                <small style="margin-top: 0.5em; display: inline-block;"><strong>Stack:</strong> • Pure HTML, CSS & JS • PicoCSS Framework • 11ty (Eleventy) with Nunjucks • LeafletJS Maps Integration • Animate.css • Linux CentOS OS • NPM • Visual Studio Code & Sublime • Apache Configuration: Subdomains, Redirects, SSL</small>
+            </p>
+        </div>
+        <div class="project-item">
+            <a href="#empty">...</a>
+        </div>
+    </article>
+</div>
+
+<!-- End of toc -->
+
+</div>
+<hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;">
         <hgroup>
-            <h4><i data-feather="briefcase"></i> All projects</h4>
+            <h4><i data-feather="briefcase"></i> All projects details</h4>
             <p>Explore my projects</p>
         </hgroup>
         <!-- Card Project MedApp -->
@@ -219,7 +284,8 @@
                     <ul>
                         <li> Utilizes National Health
                             Fund (NFZ) public data from data.gov.pl</li>
-                        <li> Access results and visualizations directly in the documentation—no any setup needed (extensive README.md)</li>
+                        <li> Access results and visualizations directly in the documentation—no any setup needed
+                            (extensive README.md)</li>
                         <li> Exploratory data analysis (EDA)</li>
                         <li> Results as text + BI dashboard in some cases </li>
                         <li> Local Self-Hosted</li>
@@ -233,9 +299,9 @@
 
                         <li> VirtualBox, network bridged adapter. VMs:</li>
                         <ul>
-                        <li> VM 1: Oracle Linux with DB 21</li>
-                        <li> VM 2: Centos, Docker, Apache Superset container with cx_oracle connector</li>
-                    </ul>
+                            <li> VM 1: Oracle Linux with DB 21</li>
+                            <li> VM 2: Centos, Docker, Apache Superset container with cx_oracle connector</li>
+                        </ul>
                         <li>MINGW distro for runing shell script</li>
 
                         <li> IDE:</li>
@@ -379,8 +445,8 @@
             </div>
         </article>
         <hr>
-         <!-- Card Project Website -->
-         <article id="ddr">
+        <!-- Card Project Website -->
+        <article id="ddr">
             <!-- Card header -->
             <div>
                 <p class="pico-color-pumpkin-400">
@@ -390,12 +456,14 @@
                 <hgroup>
                     <h3>Public Information Portal
                     </h3>
-                    Commute Bike Infrastructure Map & Mikroblog
+                    Cycling Route Problem Reporting Portal with Map & Microblog
                 </hgroup>
             </div>
-            <blockquote>This web page highlights and categorizes issues with local bicycle infrastructure, providing an overview of Dedicated Bicycle Routes (DDR), identifying problem areas, and featuring a map with updates and a news feed.</blockquote>
-              <!-- Card details -->
-              <details>
+            <blockquote>This web page highlights and categorizes issues with local bicycle infrastructure, providing an
+                overview of Dedicated Bicycle Routes (DDR), identifying problem areas, and featuring a map with updates
+                and a news feed.</blockquote>
+            <!-- Card details -->
+            <details>
                 <summary class="outline secondary  animate__animated animate__shakeX"><strong
                         class="pico-color-amber-500">Read more...</strong>
                 </summary>
@@ -405,7 +473,7 @@
                     <ul>
                         <li> VPS Self-Hosted</li>
                         <li> Interactive map</li>
-                        <li> Blog / News feed</li>
+                        <li> Custom Blog / News feed</li>
                         <li> Static site - good SEO, fast</li>
                         <li> Easy deploy with githooks</li>
                     </ul>
@@ -421,10 +489,11 @@
                         </ul>
                         <li> OS</li>
                         <ul>
-                            <li>Linux Centos</li></li>
+                            <li>Linux Centos</li>
+                            </li>
                         </ul>
                         <li> Tools</li>
-                        <ul>                   
+                        <ul>
                             <li>NPM</li>
                             <li>Visual Studio Code</li>
                             <li>Sublime</li>
@@ -462,10 +531,10 @@
                     <kbd>#githooks</kbd>
                 </div>
             </div>
-            
+
         </article>
         <hr>
-        
+
         <!-- Card Project empty -->
         <article id="empty">
             <!-- Card header -->
